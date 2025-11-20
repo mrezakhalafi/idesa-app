@@ -1,0 +1,44 @@
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 16px;
+    border-bottom: 1px solid #eef0f6;
+    text-decoration: none;
+    color: #1c2434;
+    background: #fff;
+}
+
+.feature-list {
+    border-radius: 1.25rem;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 10px 30px rgba(21, 29, 78, 0.08);
+    cursor: pointer;
+}
+
+.alert-light{
+    cursor: pointer;
+}
+
+.date-ribbon {
+    color: white;
+    padding: 8px 15px;
+    border-bottom-left-radius: 1.25rem;
+    text-align: center;
+}
+.date-ribbon .month {
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.date-ribbon .day {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.hero-map{
+    cursor: pointer;
+}

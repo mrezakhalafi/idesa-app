@@ -1,0 +1,58 @@
+.section-title-riset-akademik {
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 15px 15px 8px;
+    font-size: 0.95rem;
+}
+
+.info-card {
+    align-items: center;
+    padding: 12px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin: 0 0px 12px;
+    transition: all 0.3s;
+}
+
+.info-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.info-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-right: 12px;
+}
+
+.info-card i {
+    font-size: 2rem;
+    margin-right: 15px;
+    color: #ff7b00;
+}
+
+.info-title {
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+    padding: 0.5rem 1rem;
+}
+
+.info-sub {
+    font-size: 0.81rem;
+    color: #7f8c8d;
+    padding: 0rem 1rem;
+    margin: 0;
+}
+.info-desc {
+    font-size: 12px;
+    padding: 0rem 1rem;
+    color: #858585;
+}
+.info-link {
+    font-size: 14px;
+    padding: 0rem 1rem;
+}

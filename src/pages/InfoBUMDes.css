@@ -1,0 +1,69 @@
+.search-box {
+  position: relative;
+}
+
+.search-box input {
+  border-radius: 12px;
+  padding-left: 40px;
+  font-size: 0.9rem;
+}
+
+.search-box i {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #999;
+}
+
+.section-title-info-bumdes {
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 15px 15px 8px;
+  font-size: 0.95rem;
+}
+
+.info-card-info-bumdes {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.info-card-info-bumdes:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.info-card-info-bumdes img {
+  width: 75px;
+  height: 75px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-right: 12px;
+}
+
+.info-card-info-bumdes i {
+  font-size: 2rem;
+  margin-right: 15px;
+  color: #6c757d;
+}
+
+.info-title-info-bumdes {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 0;
+  color: #ff8f17;
+  margin-left: 5px;
+}
+
+.info-sub-info-bumdes {
+  font-size: 0.85rem;
+  color: #282828;
+  margin: 0;
+  margin-left: 5px;
+}
