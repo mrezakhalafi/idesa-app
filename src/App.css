@@ -1,0 +1,164 @@
+body {
+  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.background {
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200"><defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:%23000000;stop-opacity:1" /><stop offset="100%" style="stop-color:%233a3a3a;stop-opacity:1" /></linearGradient></defs><rect width="400" height="200" fill="url(%23bg)"/><circle cx="350" cy="50" r="30" fill="rgba(255,255,255,0.125)"><animate attributeName="cx" from="350" to="50" dur="20s" repeatCount="indefinite" /></circle><circle cx="50" cy="150" r="40" fill="rgba(255,255,255,0.125)"><animate attributeName="cx" from="50" to="350" dur="20s" repeatCount="indefinite" /></circle><circle cx="200" cy="30" r="20" fill="rgba(255,255,255,0.125)"><animate attributeName="cx" from="200" to="50" dur="20s" repeatCount="indefinite" /></circle><path d="M0,100 Q100,50 200,100 T400,100 L400,200 L0,200 Z" fill="rgba(255,255,255,0.03)"><animate attributeName="d" from="M0,100 Q100,50 200,100 T400,100 L400,200 L0,200 Z" to="M0,150 Q100,100 200,150 T400,150 L400,200 L0,200 Z" dur="20s" repeatCount="indefinite" /></path></svg>') center/cover;
+  /* background: url('awan.png'); */
+  /* background-size: 125% 130%; */
+  /* background-position: bottom; */
+  /* background-size: cover; */
+}
+
+.bg-dark {
+  background-color: #3a3a3a !important;
+}
+
+.main-container {
+  margin: 0 auto;
+  background: white;
+  min-height: 100vh;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.header {
+  color: white;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.header-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.header-icon {
+  width: 35px;
+  height: 35px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.header-icon-home {
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.header-icon-secondary {
+  width: 35px;
+  height: 35px;
+  background: #2a8b29;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.header-icon-secondary-long {
+  width: 100%;
+  height: 35px;
+  background: #2a8b29;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.sheet {
+  background: #fff;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  margin-top: 3px;
+  padding: 18px;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.feature-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.feature-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.feature-name {
+  font-weight: 600;
+}
+
+.feature-item i.fa-chevron-right {
+  color: #a6afc6;
+}
+
+.offcanvas-header {
+ background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200"><defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:%23000000;stop-opacity:1" /><stop offset="100%" style="stop-color:%233a3a3a;stop-opacity:1" /></linearGradient></defs><rect width="400" height="200" fill="url(%23bg)"/><circle cx="350" cy="50" r="30" fill="rgba(255,255,255,0.125)"><animate attributeName="cx" from="350" to="50" dur="20s" repeatCount="indefinite" /></circle><circle cx="50" cy="150" r="40" fill="rgba(255,255,255,0.125)"><animate attributeName="cx" from="50" to="350" dur="20s" repeatCount="indefinite" /></circle><circle cx="200" cy="30" r="20" fill="rgba(255,255,255,0.125)"><animate attributeName="cx" from="200" to="50" dur="20s" repeatCount="indefinite" /></circle><path d="M0,100 Q100,50 200,100 T400,100 L400,200 L0,200 Z" fill="rgba(255,255,255,0.03)"><animate attributeName="d" from="M0,100 Q100,50 200,100 T400,100 L400,200 L0,200 Z" to="M0,150 Q100,100 200,150 T400,150 L400,200 L0,200 Z" dur="20s" repeatCount="indefinite" /></path></svg>') center/cover;
+  /* background: url('awan.gif'); */
+}
+
+.offcanvas-title {
+  color: white;
+}
+
+.btn-close {
+  filter: invert(1) brightness(100) !important;
+  --bs-btn-close-opacity: 1 !important;
+}
+
+button {
+  border: none;
+  font-family: "Poppins";
+}
+
+.btn-dark{
+  background-color: #3a3a3a !important;
+  border-radius: 1rem !important;
+}
+
+.btn-outline-dark{
+  border: 1px solid #3a3a3a !important;
+  border-radius: 1rem !important;
+}

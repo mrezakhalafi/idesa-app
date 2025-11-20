@@ -1,0 +1,87 @@
+.card-keuangan {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  margin-bottom: 1rem;
+  background-color: #fff;
+}
+
+.card-header-keuangan {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #333;
+  background: none;
+  border: none;
+}
+
+.progress-bar {
+  background: linear-gradient(45deg, #ff8f17, #ffb362) !important;
+}
+
+.progress {
+  height: 15px !important;
+  border-radius: 5px;
+}
+
+.donut-chart {
+  width: 100px;
+  height: 100px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.legend-color {
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  margin-right: 8px;
+}
+
+.category-item-keuangan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.category-item-keuangan:last-child {
+  border-bottom: none;
+}
+
+.category-icon {
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.transaction-item:last-child {
+  border-bottom: none;
+}
+
+.transaction-date {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.transaction-amount {
+  font-weight: 500;
+  color: #ff8f17;
+}
+
+.container-keuangan {
+  padding: 20px;
+}

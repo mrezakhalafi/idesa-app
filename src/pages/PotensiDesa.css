@@ -1,0 +1,93 @@
+.menu-grid-potensi-desa {
+  padding: 20px 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  background: white;
+  border-radius: 20px;
+  margin-top: -15px;
+}
+
+.menu-item-potensi-desa {
+  background: white;
+  border-radius: 16px;
+  padding: 20px 20px;
+  text-align: center;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  text-decoration: none;
+  color: inherit;
+  border: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.legend-color {
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  margin-right: 8px;
+}
+
+.menu-item-potensi-desa::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  transition: left 0.5s;
+}
+
+.menu-item-potensi-desa:hover::before {
+  left: 100%;
+}
+
+.menu-icon-potensi-desa {
+  width: 95px;
+  height: 95px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 12px;
+  font-size: 1.3rem;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.fs-50{
+  font-size: 50px !important;
+}
+
+.btn-wisata-desa{
+  --bs-btn-color: #fff !important;
+  --bs-btn-bg: #6b6ed4 !important;
+  --bs-btn-border-color: #6b6ed4 !important;
+  --bs-btn-hover-color: #fff !important;
+  --bs-btn-hover-bg: #5a5fcf !important;
+  --bs-btn-hover-border-color: #5558c9 !important;
+  --bs-btn-focus-shadow-rgb: 107, 117, 212 !important;
+  --bs-btn-active-color: #fff !important;
+  --bs-btn-active-bg: #5558c9 !important;
+  --bs-btn-active-border-color: #4f51c3 !important;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) !important;
+  --bs-btn-disabled-color: #fff !important;
+  --bs-btn-disabled-bg: #6b6ed4 !important;
+  --bs-btn-disabled-border-color: #6b6ed4 !important;
+  --bs-btn-border-radius: 20px !important;
+}

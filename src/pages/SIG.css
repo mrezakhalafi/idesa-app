@@ -1,0 +1,44 @@
+.feature-list-sig {
+  border-radius: 1.25rem;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(21, 29, 78, 0.08);
+}
+
+.feature-item-sig {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  border-bottom: 1px solid #eef0f6;
+  text-decoration: none;
+  color: #1c2434;
+  background: #fff;
+  cursor: pointer;
+}
+
+.feature-item-sig:last-child {
+  border-bottom: none;
+}
+
+.bg-purple-outline {
+  background: #f2f4ff;
+  border: 2px solid #7783de !important;
+  color: #6a7bff !important;
+  border-radius: 12px;
+  padding: 8px 16px;
+  font-weight: 600;
+}
+
+.bg-orange-outline {
+  background: #fffdf2;
+  border: 2px solid #ff8f17 !important;
+  color: #ff8f17 !important;
+  border-radius: 12px;
+  padding: 8px 16px;
+  font-weight: 600;
+}
+
+.card-list {
+  cursor: pointer;
+}
